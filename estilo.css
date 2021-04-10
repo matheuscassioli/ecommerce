@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+body{
+    background-color:rgb(235, 157, 12);  /*COR DO BACKGROUND DO SITE*/
+}
+p{
+    text-align: justify;
+    text-indent: 15px;           /*FORMATAÇÃO DOS PARAGRAFOS*/
+    
+}
+figure.cabeçalho img{
+    margin: auto;
+    width : 1000px;
+    height : 180px;             /*TAMANHO CABECALHO*/
+}
+
+figure.furadeira-amarela{
+    position: relative;
+    width: 300px;
+}
+figure.furadeira-amarela img{
+    width: 100%;
+    border: 5px solid yellow;
+}
+figure.furadeira-amarela figurecaption{
+    opacity: 0  ;
+    width: 100%;
+    position: absolute;
+    left: 5px;
+    bottom : 10px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 3px;
+    box-sizing: border-box;                     /*PARAMETROS FURADEIRA AMARELA*/
+}
+figure.furadeira-amarela:hover figurecaption {  /*PASSAR MOUSE, VOLTA A LEGENDA*/
+    opacity: 1;
+}
+
+figure.furadeira-vermelha{
+    position: relative;
+    width: 300px;
+}
+figure.furadeira-vermelha img{
+    width: 100%;
+    border: 5px solid yellow;
+}
+figure.furadeira-vermelha figurecaption{
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    left: 5px;
+    bottom : 10px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 3px;
+    box-sizing: border-box;                     /*PARAMETROS FURADEIRA VERMELHA*/
+}
+figure.furadeira-vermelha:hover figurecaption { /*PASSAR MOUSE, VOLTA A LEGENDA*/
+    opacity: 1;
+}
+
+figure.furadeira-azul {
+    position:relative;
+    width: 300px;
+}
+figure.furadeira-azul img {
+    width: 100%;
+    border: 5px solid yellow;
+
+}
+figure.furadeira-azul figurecaption{
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    left: 5px;
+    bottom : 10px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 3px;
+    box-sizing: border-box;                     /*PARAMETROS FURADEIRA AZUL*/   
+
+}    
+figure.furadeira-azul:hover figurecaption { /*PASSAR MOUSE, VOLTA A LEGENDA*/
+    opacity: 1;
+}
+figure.furadeira-laranja {
+    position:relative;
+    width: 300px;
+}
+figure.furadeira-laranja img {
+    width: 100%;
+    border: 5px solid yellow;
+
+}
+figure.furadeira-laranja figurecaption{
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    left: 5px;
+    bottom : 10px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 3px;
+    box-sizing: border-box;                     /*PARAMETROS FURADEIRA AZUL*/   
+
+}    
+figure.furadeira-laranja:hover figurecaption { /*PASSAR MOUSE, VOLTA A LEGENDA*/
+    opacity: 1;
+}
+figure {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+figure.camiseta-preta {
+    position:relative;
+    width: 300px;
+}
+figure.camiseta-preta img {
+    width: 100%;
+    border: 5px solid yellow;
+
+}
+figure.camiseta-preta figurecaption{
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    left: 5px;
+    bottom : 10px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 3px;
+    box-sizing: border-box;                     /*PARAMETROS CAMISETA PRETA*/   
+
+}    
+figure.camiseta-preta:hover figurecaption { /*PASSAR MOUSE, VOLTA A LEGENDA*/
+    opacity: 1;
+}
+figure.camiseta-roxa {
+    position:relative;
+    width: 300px;
+}
+figure.camiseta-roxa img {
+    width: 100%;
+    border: 5px solid yellow;
+
+}
+figure.camiseta-roxa figurecaption{
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    left: 5px;
+    bottom : 10px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 3px;
+    box-sizing: border-box;                     /*PARAMETROS CAMISETA ROXA*/   
+
+}    
+figure.camiseta-roxa:hover figurecaption { /*PASSAR MOUSE, VOLTA A LEGENDA*/
+    opacity: 1;
+}
+figure.camiseta-laranja {
+    position:relative;
+    width: 300px;
+  
+}
+figure.camiseta-laranja img {
+    width: 100%;
+
+    border: 5px solid yellow;
+
+}
+figure.camiseta-laranja figurecaption{
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    left: 5px;
+    bottom : 10px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 3px;
+    box-sizing: border-box;                     /*PARAMETROS CAMISETA LARANJA   */   
+
+}    
+figure.camiseta-laranja:hover figurecaption { /*PASSAR MOUSE, VOLTA A LEGENDA*/
+    opacity: 1;
+}
+figure.regata-branca {
+    position:relative;
+    width: 300px;
+}
+figure.regata-branca img {
+    width: 100%;
+    border: 5px solid yellow;
+
+}
+figure.regata-branca figurecaption{
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    left: 5px;
+    bottom : 10px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 3px;
+    box-sizing: border-box;                     /*PARAMETROS CAMISETA LARANJA   */   
+
+}    
+figure.regata-branca:hover figurecaption { /*PASSAR MOUSE, VOLTA A LEGENDA*/
+    opacity: 1;
+}
+nav{
+    position: absolute;
+    right: 30px;
+bottom: 0px;
+}
+nav ul li{
+    float: left;
+    width: auto;
+    font-size: 1.5em;
+    margin: 0.8em;
+    
+
+}
